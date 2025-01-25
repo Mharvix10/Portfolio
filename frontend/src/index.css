@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+
+ @layer base {
+    body{
+        @apply bg-lightDark;
+    }
+    h2{
+        @apply text-5xl;
+    }
+    h3{
+        @apply text-3xl;
+        font-family: serif;
+    }
+    .landingPage{
+        width: 100%;
+        height: calc(100vh - 4rem);
+    }
+    .navbar{
+        z-index: 10;
+    }
+    .card2{
+        @apply bg-slate-800 w-[350px] h-[250px] md:h-[400px] rounded-lg p-2 border-2 border-slate-700 hover:border-blue-300;
+        text-align: center;
+    }
+    .card{
+        @apply w-[350px] min-w-[200px] h-[400px] flex flex-col justify-between bg-white/10 backdrop-blur-md rounded-lg p-2 border-2 border-slate-700 hover:border-blue-300;
+        text-align: center;
+    }
+    .toolsIcon{
+        @apply w-24 h-24 rounded-full transition duration-300 hover:rotate-180;
+    }
+    .input{
+        @apply w-full h-16 bg-white pl-4 mb-4 rounded-lg transition hover:bg-blue-200
+    }
+ }
