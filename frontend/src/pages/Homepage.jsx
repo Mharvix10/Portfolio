@@ -186,7 +186,7 @@ function Homepage() {
                 Fullstack <span className='text-blue-200'>Developer</span>
               </h3>
               <p className='text-lg mt-4'>
-                Hello I am Akinola Marvellous. I am a web developer and i am very 
+                Hello, I am Akinola Marvellous. I am a web developer and i am very 
                 passionate and dedicated to my work. With 4 years experience as a
                 professional web developer, I have acquired the necessary skills and knowledge
                 required for me to make your project a succeses. I enjoy every step of the 
