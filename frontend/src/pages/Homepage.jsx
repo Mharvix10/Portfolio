@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react'
-import ProfielImage from '../assets/newprofile.jpg'
+import ProfielImage from '../assets/newProfile.jpg'
 import Navbar from '../components/Navbar'
 import ReactImage from '../assets/react.svg'
 import ExpressImage from '../assets/express.png'
