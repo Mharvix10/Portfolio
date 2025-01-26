@@ -190,7 +190,7 @@ function Homepage() {
                 passionate and dedicated to my work. With 3 years experience as a
                 professional web developer, I have acquired the necessary skills and knowledge
                 required for me to make your project a succeses. I enjoy every step of the 
-                development process and collaboration with my team.
+                development process and collaborating with my team.
               </p>
 
               <section className='grid grid-cols-3 w-9/12 text-lg mt-8 gap-2'>
