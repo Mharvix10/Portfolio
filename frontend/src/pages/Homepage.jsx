@@ -46,7 +46,7 @@ function Homepage() {
   const submitForm=async()=>{
     try {
       console.log('form submission')
-       const response = await axios.post('http://localhost:7000/form',data)
+       const response = await axios.post('https://portfolio-server-fcc4.onrender.com/form',data)
        console.log('data sent to the server')
        console.log(response.data)
     } catch (error) {
@@ -362,9 +362,9 @@ function Homepage() {
               </section>
 
               <section className="right w-full md:w-6/12">
-                <input onChange={onInputChange} className='input tex' name='name' type="text" placeholder='Name' value={name} />
-                <input onChange={onInputChange} className='input' name='email' type="text" placeholder='Email' value={email} />
-                <textarea onChange={onInputChange} className='input h-40' placeholder='Message' name="message" id="" value={message}></textarea>
+                <input onChange={onInputChange} className='input text-black' name='name' type="text" placeholder='Name' value={name} />
+                <input onChange={onInputChange} className='input text-black' name='email' type="text" placeholder='Email' value={email} />
+                <textarea onChange={onInputChange} className='input h-40 text-black' placeholder='Message' name="message" id="" value={message}></textarea>
                 <button onClick={submitForm} className='input bg-green-600 hover:bg-green-700'>Send Message</button>
               </section>
             </section>
