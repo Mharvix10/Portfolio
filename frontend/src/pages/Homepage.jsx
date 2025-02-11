@@ -72,7 +72,7 @@ function Homepage() {
   
 
   const visitproject1=(project)=>{
-    window.open('http://ecommerce-taupe-ten-47.vercel.app', '_blank', 'noopener,noreferrer')
+    window.open('https://shopify-two-bay.vercel.app/', '_blank', 'noopener,noreferrer')
   }
 
   const visitproject2=(project)=>{
