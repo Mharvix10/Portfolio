@@ -48,7 +48,6 @@ function Homepage() {
       console.log('form submission')
        const response = await axios.post('https://portfolio-server-fcc4.onrender.com/form',data)
        console.log('data sent to the server')
-       console.log(response.data)
     } catch (error) {
       console.log(error)
     }
