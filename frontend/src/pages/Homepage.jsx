@@ -220,7 +220,7 @@ function Homepage() {
               <h3 className='mb-4'>Web Development</h3>
               <p className='text-lg'>
                 We will build your entire website from scratch to deployment.
-                We are going to build both the frontend and the server for your website
+                We are going to build both the frontend and the server of your website
                 for full functionality.
               </p>
               <img className='block mx-auto w-30 h-30' src={Webdevicon} alt="" />
