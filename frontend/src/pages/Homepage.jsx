@@ -78,6 +78,10 @@ function Homepage() {
     window.open('https://new-haven-of-wisdom-site-1.onrender.com', '_blank', 'noopener,noreferrer')
   }
 
+  const downloadCV=()=>{
+    window.open('https://drive.google.com/file/d/1CcMJ9Wocs2FRzJxiTAio5YQGNrVAbvv8/view?usp=drive_link', '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <>
         {/* navbar */}
@@ -152,7 +156,7 @@ function Homepage() {
                   </span>
                 </p>
 
-                <button className='bg-green-600 w-6/12 md:w-9/12 h-10 rounded-md mt-10 md:mt-40 hover:bg-green-700 transition'>Download my CV</button>
+                <button className='bg-green-600 w-6/12 md:w-9/12 h-10 rounded-md mt-10 md:mt-40 hover:bg-green-700 transition' onClick={downloadCV}>Download my CV</button>
               </section>
               
 
