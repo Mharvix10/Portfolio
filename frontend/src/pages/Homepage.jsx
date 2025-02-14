@@ -197,7 +197,6 @@ function Homepage() {
               </p>
 
               <section className='grid grid-cols-3 w-9/12 text-lg mt-8 gap-2'>
-                <section>Birthday</section> <section>: </section> <section>June 12, 2005</section>
                 <section>Phone</section> <section>: </section> <section>+234-810-716-7329</section>
                 <section>Gmail</section> <section>: </section> <section>marvel10cent</section>
                 <section>Language</section> <section>: </section> <section>English</section>
