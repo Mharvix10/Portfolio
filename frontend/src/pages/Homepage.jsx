@@ -9,6 +9,8 @@ import MongodbImg from '../assets/mongodb.png'
 import ReduxImg from '../assets/redux.png'
 import Project1 from '../assets/project1mock.png'
 import Project2 from '../assets/projectmockup2.png'
+import Project3 from '../assets/ai_project.png'
+import Project4 from '../assets/realestate.png'
 import Xlogo from '../assets/xlogo.png'
 import Iglogo from '../assets/iglogo.jpg'
 import Fblogo from '../assets/facebookLogo.png'
@@ -273,7 +275,7 @@ function Homepage() {
 
           <div className="text-white mb-8 justify-between items-center flex flex-col md:flex-row gap-4">
             <section className='project1 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition'>
-              <img className='w-full' src={Project1} alt="" />
+              <img className='w-full' src={Project3} alt="" />
               <button onClick={visitproject3} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button> 
               <p className='text-lg'>
                 Ai Project
@@ -305,7 +307,7 @@ function Homepage() {
             </section>
 
             <section className="project2 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition">
-              <img className='w-full' src={Project1} alt="" />
+              <img className='w-full' src={Project4} alt="" />
               <button onClick={visitproject4} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button>
               <p className='text-lg'>
                 Real-estate website
