@@ -291,6 +291,10 @@ function Homepage() {
               
             </section>
 
+          </div>
+          
+
+          <div className="text-white mb-4 justify-between items-center flex flex-col md:flex-row gap-4">
             <section className="project2 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition">
               <img className='w-full' src={Project2} alt="" />
               <button onClick={visitproject2} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button>
@@ -308,8 +312,8 @@ function Homepage() {
               </p>
               
             </section>
-            
           </div>
+
         </motion.div>
 
 
