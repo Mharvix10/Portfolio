@@ -78,6 +78,15 @@ function Homepage() {
     window.open('https://new-haven-of-wisdom-site-1.onrender.com', '_blank', 'noopener,noreferrer')
   }
 
+
+  const visitproject3=(project)=>{
+    window.open('https://csc-ai.vercel.app', '_blank', 'noopener,noreferrer')
+  }
+
+  const visitproject4=(project)=>{
+    window.open('https://house-marketplace-lyart-six.vercel.app/', '_blank', 'noopener,noreferrer')
+  }
+
   const downloadCV=()=>{
     window.open('https://drive.google.com/file/d/1CcMJ9Wocs2FRzJxiTAio5YQGNrVAbvv8/view?usp=drive_link', '_blank', 'noopener,noreferrer')
   }
@@ -265,6 +274,16 @@ function Homepage() {
           <div className="text-white mb-4 justify-between items-center flex flex-col md:flex-row gap-4">
             <section className='project1 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition'>
               <img className='w-full' src={Project1} alt="" />
+              <button onClick={visitproject3} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button> 
+              <p className='text-lg'>
+                Ai Project
+              </p>
+              
+            </section>
+
+
+            <section className='project1 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition'>
+              <img className='w-full' src={Project1} alt="" />
               <button onClick={visitproject1} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button> 
               <p className='text-lg'>
                 E-Commerce Project
@@ -277,6 +296,15 @@ function Homepage() {
               <button onClick={visitproject2} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button>
               <p className='text-lg'>
                 Church website
+              </p>
+              
+            </section>
+
+            <section className="project2 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition">
+              <img className='w-full' src={Project1} alt="" />
+              <button onClick={visitproject4} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button>
+              <p className='text-lg'>
+                Real-estate website
               </p>
               
             </section>
