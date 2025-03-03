@@ -271,7 +271,7 @@ function Homepage() {
         className='w-full px-20 py-10 text-white'>
           <h2 className='text-center mb-8'>Latest Projects</h2>
 
-          <div className="text-white mb-4 justify-between items-center flex flex-col md:flex-row gap-4">
+          <div className="text-white mb-8 justify-between items-center flex flex-col md:flex-row gap-4">
             <section className='project1 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition'>
               <img className='w-full' src={Project1} alt="" />
               <button onClick={visitproject3} className='bg-dark w-32 h-12 -mt-4 transition hover:bg-green-950'>Visit website</button> 
@@ -292,7 +292,7 @@ function Homepage() {
             </section>
 
           </div>
-          
+
 
           <div className="text-white mb-4 justify-between items-center flex flex-col md:flex-row gap-4">
             <section className="project2 card2 w-full md:w-5/12 px-0 md:blur-sm hover:blur-none transition">
