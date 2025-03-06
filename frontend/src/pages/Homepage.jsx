@@ -90,7 +90,7 @@ function Homepage() {
   }
 
   const downloadCV=()=>{
-    window.open('https://drive.google.com/file/d/1CcMJ9Wocs2FRzJxiTAio5YQGNrVAbvv8/view?usp=drive_link', '_blank', 'noopener,noreferrer')
+    window.open('https://drive.google.com/file/d/15XyEbXelYweUGPdN7z5xU5umI_avhiuW/view?usp=sharing', '_blank', 'noopener,noreferrer')
   }
 
   return (
